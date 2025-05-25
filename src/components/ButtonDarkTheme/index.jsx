@@ -8,8 +8,8 @@ function ButtonDarkTheme() {
   };
   useEffect(() => {
     isDarkTheme
-      ? (document.body.style = "background: #0f0e17")
-      : (document.body.style = "background: #fff");
+      ? (document.body.style = "background: #0f0e17; color: #fff")
+      : (document.body.style = "background: #fff; color: black");
   }, [isDarkTheme]);
   return (
     <>
